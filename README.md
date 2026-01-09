@@ -1,6 +1,6 @@
 # Send Email
 
-A Claude Code skill for sending emails via Gmail with preview and confirmation.
+A Claude Code skill for sending emails via Gmail SMTP with preview and confirmation. Uses Gmail App Passwords for authentication - no Google Cloud project or API keys required.
 
 ## Documentation
 
