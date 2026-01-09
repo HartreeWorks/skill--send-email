@@ -1,0 +1,26 @@
+# Send Email - Local Configuration
+
+This file contains your personal configuration for the send-email skill.
+
+**Setup:** Copy this file to `send-email.local.md` and fill in your details.
+
+## My Accounts
+
+Configure your Gmail accounts here. Each account needs corresponding credentials in `.env`.
+
+| Account | Email | Use case |
+|---------|-------|----------|
+| `personal` | your-email@gmail.com | Personal emails |
+| `work` | your-work@company.com | Work emails |
+
+**Note:** Account names must match the suffix in your `.env` file (e.g., `GMAIL_USER_personal`).
+
+## Skill Path
+
+The path where this skill is installed:
+
+```
+~/.claude/skills/send-email
+```
+
+Adjust if you've installed it elsewhere.

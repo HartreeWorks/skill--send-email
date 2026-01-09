@@ -1,0 +1,9 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^7.0.10"
+  }
+}
