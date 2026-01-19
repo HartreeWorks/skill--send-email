@@ -5,13 +5,13 @@ description: Send emails via Gmail with preview and confirmation. Use when the u
 
 # Send Email
 
-You are helping the user send an email via Gmail.
+Send emails via Gmail with preview and confirmation before sending.
 
 ## Contents
 
-- [CRITICAL: Command Usage](#critical-command-usage)
-- [Multiple Accounts](#multiple-accounts)
-- [Your task](#your-task)
+- [CRITICAL: Command usage](#critical-command-usage)
+- [Multiple accounts](#multiple-accounts)
+- [Workflow](#workflow)
 - [CRITICAL: Safety feature - ABORT_FLAG](#critical-safety-feature---abort_flag)
 - [Important notes](#important-notes)
 - [Authentication setup](SETUP.md) (separate file)
@@ -44,9 +44,9 @@ node send-email.js "friend@example.com" "Hello" "Message" --from personal
 # If --from is omitted, uses DEFAULT_ACCOUNT from .env
 ```
 
-## Your task
+## Workflow
 
-1. **Gather the required information** from the user (if not already provided):
+1. **Gather the required information** (if not already provided):
    - **To**: Email address of the recipient (extract the recipient's name for the greeting)
    - **From** (optional): Which account to send from (personal, t3a, iwr) - defaults to .env setting
    - **CC** (optional): CC email address(es) - can be a single address or comma-separated list
@@ -135,7 +135,7 @@ The safety features exist to prevent accidental spam or duplicate emails. The us
 
 **User**: "Send an email to john@example.com with subject 'Meeting Tomorrow' saying 'Looking forward to our call at 2pm'"
 
-**You would**:
+**Steps**:
 1. Format the message as:
    ```
    Hi John,
