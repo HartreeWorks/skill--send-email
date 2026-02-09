@@ -148,7 +148,3 @@ The safety features exist to prevent accidental spam or duplicate emails. The us
 2. Show the user this formatted message and ask for confirmation
 3. After user confirms, run the script which will send the email immediately
 4. Report success to the user with the Message ID
-
-## Update check
-
-This skill is managed by [skills.sh](https://skills.sh). To check for updates, run `npx skills update`.
